@@ -1,0 +1,90 @@
+
+<html lang="en" ng-app="myEpl">
+<head>
+	<meta charset="utf-8">
+	<title>EPL</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<!-- stylesheet css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/templatemo-green.css">
+</head>
+<body data-spy="scroll" >
+
+<!-- header section -->
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+                <a ng-href="#/"><img src="images/tm-easy-profile.png" class="img-responsive img-circle tm-border" alt="templatemo easy profile"></a>
+				
+                <h1 class="tm-title bold shadow">Welcome</h1>
+				<h1 class="white bold shadow">English Premier League</h1>
+                <hr>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!-- about and skills section -->
+    
+<section class="container-fluid">
+   <ng-view></ng-view>
+</section><br/><br/><br/>
+
+<!-- Footer -->
+<section class="container-fluid">
+	<div class="row">
+		<div class="col-md-12 col-sm-12">
+			<div style="background-color: aliceblue;">
+               <h5 class="text-center" style="background-color: #442260; color: white; padding:30px 20px 50px 20px">Angular Assignment4  &copy;Edwisor.com</h5>
+            </div>
+		</div>
+	</div>
+</section>
+ 
+    
+<!-- footer navgation section -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<ul class="social-icons">
+                    <li><a href="#/" >Matches</a></li>
+				    <li><a href="#/teams" >Teams15</a></li>
+					<li><a href="#/teams16" >Teams16</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+    
+
+
+<!-- javascript js -->	
+<script src="js/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.js"></script>
+<script src="js/bootstrap.min.js"></script>	
+<script src="js/jquery.backstretch.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+    <!--app-->
+<script src="angular/app.js"></script>
+    <!---services--->
+<script src="angular/service/service.js"></script>
+    <!--controller-->
+<script src="angular/controller/myController.js"></script>
+<script src="angular/controller/matchDetails.js"></script>
+<script src="angular/controller/teamStats.js"></script>
+<script src="angular/controller/teams.js"></script>
+<script src="angular/controller/teams16.js"></script>
+    <!-- route-->
+<script src="angular/route.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+Assignment 4 of edwisor.com
+
+I have created SPA as assignment4 of EPL data.
+It contain all the 3 views as said.
+Here is repo link:
+
+https://github.com/laffingDragons/EPL
+
+Here is link to Live page:
+
+https://laffingdragons.github.io/EPL/
+
+Note:- We have told to add Various filter in first-view, i have added all of them, except Score filter which wont look nice in my UI aproach, so i have commented it out.
+
+Thank you.

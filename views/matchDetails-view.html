@@ -1,0 +1,41 @@
+<div class="row" >
+	<div class="col-xs-12 col-md-12 text-center">
+		<div class="t2" style="margin-bottom:20px">
+			<h3> {{ mD.matchDay }}</h3>
+			<h3> {{ mD.date }}</h3>
+		</div>
+	</div>
+	<br/>
+	<br/>
+	<div class="col-xs-12 col-sm-5 col-md-5">
+		<div class="about">
+			<img ng-src = "images/logo/{{ mD.code1}}.png" class="img-responsive center-block" style="height:auto;width:440px">
+				<h5 class="text-center">{{ mD.team1 }}</h5>
+				<h5 class="text-center"> Goals : {{ mD.score1 }}</h5>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-2 col-md-2">
+			<h1 class="text-center center-block">v/s</h1>
+		</div>
+		<div class="col-xs-12 col-sm-5 col-md-5">
+			<div class="skills">
+				<img ng-src = "images/logo/{{ mD.code2}}.png" class="img-responsive center-block" style="height:auto;width:440px">
+					<h5 class="text-center">{{ mD.team2 }}</h5>
+					<h5 class="text-center">Goals : {{ mD.score2 }}</h5>
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="white">
+					<h3 class="text-center" ng-if="mD.score1 > mD.score2">{{mD.team1}} Won</h3>
+					<br/>
+					<h3 class="text-center" ng-if="mD.score1 < mD.score2">{{mD.team2}} Won
+					</h3>
+					<br/>
+					<h3 class="text-center" ng-if="mD.score1 == mD.score2">Match Draw</h3>
+					<br/>
+				</div>
+				<div class="col-xs-12 text-center" >
+					<button type="button" class="button1" ng-click="mD.goBack()">Back</button>
+				</div>
+			</div>
+		</div>
